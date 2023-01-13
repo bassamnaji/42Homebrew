@@ -19,7 +19,7 @@ You can also retrieve the executable as following:
 curl -O https://raw.githubusercontent.com/Basam1881/42Homebrew/main/42brew
 wget https://raw.githubusercontent.com/Basam1881/42Homebrew/main/42brew
 ```
-
+Then run:
 ```bash
 # Give permission to execute the file
 chmod +x 42brew
@@ -32,7 +32,7 @@ chmod +x 42brew
 source ~/.zshrc # if you are running zsh
 #source ~/.bashrc # if you are running bash
 ```
-If you just want to remove remove Homebrew that is under ```Home``` you can run:
+If you just want to remove Homebrew that is under ```Home``` you can run:
 ```bash
 ./42brew clean -y
 # "-y" is an optional flag you can add to skip questions.
